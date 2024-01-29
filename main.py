@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 from supabase import create_client
 from decouple import config
-import os
 
 app = FastAPI()
 url = config("SUPABASE_URL")
